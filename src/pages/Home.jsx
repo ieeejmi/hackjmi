@@ -6,6 +6,7 @@ import HeroHome from "../partials/HeroHome";
 import About from "../partials/About";
 import Tracks from "../partials/Tracks";
 import Footer from "../partials/Footer";
+import PreviousSponsors from "../partials/PreviousSponsors";
 import Schedule from "../partials/Schedule";
 import Sponsors from "../partials/Sponsors";
 import Register from "../partials/Register";
@@ -60,6 +61,7 @@ function Home() {
 				<Events />
 				<Prizes />
 				<Sponsors />
+				<PreviousSponsors/>
 				<CommunityPartner />
 				<Mentors />
 				<Register />
