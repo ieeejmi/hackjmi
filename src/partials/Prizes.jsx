@@ -20,7 +20,7 @@ function Prizes() {
 
 	return (
 		<section className="relative" id="prizes">
-			<div className="relative max-w-6xl mx-auto px-4 sm:px-6">
+			<div className="relative max-w-6xl mx-auto px-4 sm:px-6 text-center">
 				<div className="pt-12 md:pt-20" data-aos="flip-right">
 					{/* Section header */}
 					<div className="max-w-3xl mx-auto text-center ">
@@ -44,7 +44,9 @@ function Prizes() {
 							</button>
 						</div>
 					</div>
-					{active == state.prizes ? <PrizesComponent /> : <Swags />}
+					{/* {active == state.prizes ? <PrizesComponent /> : <Swags />} */}
+					<h2 className="dark:text-white h2 text-xl  mb-4">Coming Soon..</h2>
+
 				</div>
 			</div>
 		</section>
