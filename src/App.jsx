@@ -10,6 +10,7 @@ import Home from "./pages/Home";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { ReactQueryDevtools } from "@tanstack/react-query-devtools";
 import Team from "./pages/Team";
+import Past from "./pages/past";
 import { useState } from "react";
 
 const queryClient = new QueryClient();
@@ -75,6 +76,7 @@ function App() {
 					<Routes>
 						<Route exact path="/" element={<Home />} />
 						<Route exact path="/team" element={<Team />} />
+						<Route exact path="/past" element={<Past />} />
 					</Routes>
 					<ReactQueryDevtools initialIsOpen={false} />
 				</QueryClientProvider>

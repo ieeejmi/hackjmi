@@ -2,9 +2,6 @@ import React, { useState, useRef, useEffect, useMemo, useContext } from "react";
 
 import SponsorsCard from "../components/Sponsors/SponsorsCard";
 
-
-
-
 import { DarkThemeContext } from "../App";
 import { Link } from "react-router-dom";
 
