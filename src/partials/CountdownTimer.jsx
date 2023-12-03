@@ -96,7 +96,8 @@ function CountdownTimer() {
 			<div className="relative max-w-6xl mx-auto px-4 sm:px-6">
 				<div className="pt-12 md:pt-20">
 					<div className="max-w-3xl mx-auto text-center pb-12 md:pb-16">
-						<Countdown
+					<h1 className="dark:text-white h2 mb-4">Coming Soon...</h1>
+						{/* <Countdown
 							date={date}
 							renderer={(props) =>
 								renderer({
@@ -104,7 +105,7 @@ function CountdownTimer() {
 									isDarkTheme,
 								})
 							}
-						/>
+						/> */}
 					</div>
 				</div>
 

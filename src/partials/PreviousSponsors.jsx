@@ -31,70 +31,70 @@ function PreviousSponsors(props) {
   const { isDarkTheme } = useContext(DarkThemeContext);
 
   let sponsorData = {
-    "Title Sponsor": [
+    "M16Labs": [
       {
         dark: M16Labs,
         light: M16Labs,
         src: "https://m16labs.com/",
       },
     ],
-    "Platinum Sponsors": [
+    "Devfolio": [
       {
         dark: Devfoliowhite,
         light: Devfolio,
         src: "https://devfolio.co/",
       },
     ],
-    "Silver Sponsors": [
+    "Polygons": [
       {
         dark: Polygonwhite,
         light: Polygon,
         src: "https://polygon.technology/",
       },
     ],
-    "Silver Sponsors": [
+    "Filecoin": [
       {
         dark: Filecoinwhite,
         light: Filecoin,
         src: "https://filecoin.io/",
       },
     ],
-    "Silver Sponsors": [
+    "Solana": [
       {
         dark: Solanawhite,
         light: Solana,
         src: "https://solana.com/",
       },
     ],
-    "Silver Sponsors": [
+    "Replit": [
       {
         dark: Replitwhite,
         light: Replit,
         src: "https://replit.com/",
       },
     ],
-    "Silver Sponsors": [
+    "Streamyard": [
       {
         dark: Streamyard,
         light: Streamyard,
         src: "https://streamyard.com/",
       },
     ],
-    "Silver Sponsors": [
+    "GOG": [
       {
         dark: GOG,
         light: GOG,
         src: "https://www.geeksforgeeks.org/",
       },
     ],
-    "Silver Sponsors": [
+    "NS": [
       {
         dark: NS,
         light: NS,
         src: "https://www.newtonschool.co/",
       },
     ],
-    "Silver Sponsors": [
+    "xyz": [
       {
         dark: xyzwhite,
         light: xyz,
@@ -102,14 +102,14 @@ function PreviousSponsors(props) {
       },
     ],
 
-    "Silver Sponsors": [
+    "Axure": [
       {
         dark: Axure,
         light: Axure,
         src: "https://www.axure.com/",
       },
     ],
-    "Certificate Partners": [
+    "GMC": [
       {
         dark: GMC,
         light: GMC,
