@@ -52,6 +52,10 @@ const tabs = [
 		name: "Team",
 		path: "/team",
 	},
+	{
+		name: "Past-Events",
+		path: "/past"
+	},
 ];
 
 function Header({ UpdateTheme }) {
