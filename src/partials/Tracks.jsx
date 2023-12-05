@@ -22,14 +22,14 @@ function FeaturesBlocks() {
 						<h2 className={`dark:text-white h2 mb-4`} data-aos="fade-right">
 							Tracks
 						</h2>
-						{/* <p className="text-xl italic text-gray-600">
-							Will be announced soon!
-						</p> */}
-						<p className="py-5 flex flex-wrap justify-center">
+						<p className="text-xl italic text-gray-600">
+							Coming soon!
+						</p>
+						{/* <p className="py-5 flex flex-wrap justify-center">
 							{tracksData.map((track, index) => {
 								return <TrackCard key={index} track={track} index={index} />;
 							})}
-						</p>
+						</p> */}
 					</div>
 
 					{/* Items */}

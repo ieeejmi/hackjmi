@@ -57,7 +57,8 @@ function Contact() {
 							<div className="pt-5 flex flex-col gap-5 text-white h-full">
 								<div>
 									<div className="text-md">Phone</div>
-									<div className="text-lg opacity-70">+91-7303435034</div>
+									<div className="text-lg opacity-70">+91-7091498536</div>
+									<div className="text-lg opacity-70">+91-7827993739</div>
 								</div>
 								<div>
 									<div className="text-md">Email</div>

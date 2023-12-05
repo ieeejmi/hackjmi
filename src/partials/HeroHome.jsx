@@ -129,7 +129,7 @@ function HeroHome(props) {
 									light={IEEE}
 									className={"w-32 h-32"}
 								/>
-								<ThemeImage dark={GDSCwhite} light={GDSC} className={"w-32"} />
+								{/* <ThemeImage dark={GDSCwhite} light={GDSC} className={"w-32"} /> */}
 								<img src={Hashes} className="w-32 h-32 scale-50" />
 							</div>
 						</div>
