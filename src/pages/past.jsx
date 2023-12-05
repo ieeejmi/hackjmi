@@ -3,8 +3,8 @@ import Header from "../partials/Header";
 import { useContext } from "react";
 import { DarkThemeContext } from "../App";
 import Gallery from "../partials/Gallery";
-import Winners from "../partials/Winners";
-import Sponsor from "../partials/Current_sponsor";
+import PastWinners from "../partials/Winners";
+import PastSponsors from "../partials/Current_sponsor";
 import { useState } from "react";
 
 function past() {
@@ -16,8 +16,8 @@ function past() {
 			<Header UpdateTheme={() => setIsDarkTheme(!isDarkTheme)} />
             <main className="flex-grow">
 				<Gallery />
-				<Sponsor />
-				<Winners />
+				<PastWinners />
+				<PastSponsors />
 			</main>
         </div>
         

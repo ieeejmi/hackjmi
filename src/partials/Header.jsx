@@ -53,7 +53,7 @@ const tabs = [
 		path: "/team",
 	},
 	{
-		name: "Past-Events",
+		name: "Past Events",
 		path: "/past"
 	},
 ];
