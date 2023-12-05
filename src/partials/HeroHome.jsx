@@ -53,7 +53,7 @@ function HeroHome(props) {
 				<div className="pt-12 pb-12 md:pt-16 md:pb-20">
 					{/* Section header */}
 					<div className="text-center pb-12 md:pb-16">
-						<img src={Logo} alt="Logo" className="w-40 m-auto " />
+						<img src={Logo} alt="Logo" className="w-40 m-auto mt-3" />
 
 						<h1
 							className="text-5xl md:text-6xl font-extrabold leading-tighter tracking-tighter mb-4"
