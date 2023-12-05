@@ -20,7 +20,7 @@ function Features() {
 							ill provide students the opportunity to mess with real-world
 							problems by remoulding them into something lucrative.
 							"The simpler, the merrier. The sufficient, the efficient." 
-							The participants are required to form a team of <strong>2-4</strong> members
+							The participants are required to form a team of <strong>2-5</strong> members
 							(from the same college) in order to take part in the contest 
 							and to draw effective and efficient solutions to the given problems.
 						</p>

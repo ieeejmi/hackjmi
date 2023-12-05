@@ -6,31 +6,31 @@ function Schedule(props) {
 
 	const eventSchedule = [
 		{
-			interval: "20th Jan 2023",
+			interval: "To be announced",
 			title: "Registration Begins",
 			description: "",
 		},
 		{
-			interval: "10th Feb 2023",
+			interval: "To be announced",
 			title: "Registration Ends",
 		},
 		{
-			interval: "11th Feb 2023",
+			interval: "2nd Week of March",
 			title: "Hackathon Begins",
 		},
 		{
-			interval: "12th Feb 2023",
+			interval: "2nd Week of March",
 			title: "Hackathon Ends",
 		},
 		{
-			interval: "14th Feb 2023",
+			interval: "To be announced",
 			title: "Finalist Announced",
 		},
 		{
-			interval: "15th Feb 2023",
+			interval: "To be announced",
 			title: "Finalist Presentations",
 		},
-	];
+	]
 
 	return (
 		<section className="relative" id="schedule">
