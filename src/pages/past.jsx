@@ -6,6 +6,7 @@ import Gallery from "../partials/Gallery";
 import PastWinners from "../partials/Winners";
 import PastSponsors from "../partials/Current_sponsor";
 import { useState } from "react";
+import PreviousSponsors from "../partials/PreviousSponsors"
 
 function past() {
 
@@ -17,7 +18,7 @@ function past() {
             <main className="flex-grow">
 				<Gallery />
 				<PastWinners />
-				<PastSponsors />
+				<PreviousSponsors />
 			</main>
         </div>
         
