@@ -130,13 +130,13 @@ function PreviousSponsors(props) {
   };
 
   return (
-    <section className="relative" id="sponsors">
+    <section className="relative" id="previous_sponsors">
       {/* Section background (needs .relative class on parent and next sibling elements) */}
 
       <div className="relative max-w-6xl mx-auto px-4 sm:px-6">
-        <div className="pt-12 md:pt-20">
+        <div className="pt-12 md:pt-20 ">
           {/* Section header */}
-          <div className="max-w-3xl mx-auto text-center pb-12 md:pb-16">
+          <div className="max-w-3xl mx-auto text-center ">
             <h1 className="dark:text-white h2 mb-4" data-aos="zoom-in">
               Previous Sponsors
             </h1>
@@ -183,9 +183,9 @@ function PreviousSponsors(props) {
             </Slider>
           </div>
         </div>
-
-        <div className="border" />
       </div>
+      
+      <hr className="border border-gray-300 w-3/4 mx-auto my-2" />
     </section>
   );
 }

@@ -28,6 +28,8 @@ function Team() {
 			<div className="flex flex-col items-center pt-20 dark:bg-black min-h-screen">
 				<TeamsList teams={data} />
 			</div>
+			
+			
 		</div>
 	);
 }
