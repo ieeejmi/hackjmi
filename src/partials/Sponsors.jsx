@@ -17,6 +17,7 @@ function Sponsors() {
         dark: Quarbz,
         light: Quarbz,
         src: "https://quarbz.com/",
+        alt: "QUARBZ LOGO",
       },
     ],
     "Platinum Sponsors": [
@@ -24,11 +25,13 @@ function Sponsors() {
         dark: Devfoliowhite,
         light: Devfolio,
         src: "https://devfolio.co/",
+        alt: "DEVFOLIO LOGO",
       },
       {
         dark: Polygonwhite,
         light: Polygon,
         src: "https://polygon.technology/",
+        alt: "POLYGON LOGO",
       },
     ],
     "Gold Sponsors": [
@@ -36,6 +39,7 @@ function Sponsors() {
         dark: Replitwhite,
         light: Replit,
         src: "https://replit.com",
+        alt: "REPLIT LOGO",
       },
     ],
     //   "Silver Sponsors": [
@@ -143,6 +147,7 @@ function Sponsors() {
                         <ThemeImage
                           dark={sponsor.dark}
                           light={sponsor.light}
+                          alt={sponsor.alt}
                           className={"w-full rounded-md"}
                         />
                       </button>
