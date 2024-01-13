@@ -4,33 +4,35 @@ import { DarkThemeContext } from "../App";
 function Schedule(props) {
 	const { isDarkTheme, setIsDarkTheme } = useContext(DarkThemeContext);
 
+	
 	const eventSchedule = [
 		{
-			interval: "To be announced",
-			title: "Registration Begins",
-			description: "",
+		  interval: "14 January",
+		  title: "Registration Begins",
+		  description: "",
 		},
 		{
-			interval: "To be announced",
-			title: "Registration Ends",
+		  interval: "24 February",
+		  title: "Registration Ends",
 		},
 		{
-			interval: "2nd Week of March",
-			title: "Hackathon Begins",
+		  interval: "24 February",
+		  title: "Hackathon Begins",
 		},
 		{
-			interval: "2nd Week of March",
-			title: "Hackathon Ends",
+		  interval: "25 February",
+		  title: "Hackathon Ends",
 		},
 		{
-			interval: "To be announced",
-			title: "Finalist Announced",
+		  interval: "3 March",
+		  title: "Finalist Announced",
 		},
 		{
-			interval: "To be announced",
-			title: "Finalist Presentations",
+		  interval: "3 March",
+		  title: "Finalist Presentations",
 		},
-	]
+	  ];
+	  
 
 	return (
 		<section className="relative" id="schedule">
