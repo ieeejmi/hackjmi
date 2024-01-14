@@ -81,7 +81,7 @@ const renderer = ({
 };
 
 function CountdownTimer() {
-	const date = new Date("2023-02-11T00:00:00+05:30");
+	const date = new Date("2024-02-24T10:00:00+05:30");
 
 	const { isDarkTheme } = useContext(DarkThemeContext);
 
@@ -96,8 +96,8 @@ function CountdownTimer() {
 			<div className="relative max-w-6xl mx-auto px-4 sm:px-6">
 				<div className="pt-12 md:pt-20">
 					<div className="max-w-3xl mx-auto text-center pb-12 md:pb-16">
-					<h1 className="dark:text-white h2 mb-4">Coming Soon...</h1>
-						{/* <Countdown
+					{/* <h1 className="dark:text-white h2 mb-4">Coming Soon...</h1> */}
+						<Countdown
 							date={date}
 							renderer={(props) =>
 								renderer({
@@ -105,7 +105,7 @@ function CountdownTimer() {
 									isDarkTheme,
 								})
 							}
-						/> */}
+						/>
 					</div>
 				</div>
 
