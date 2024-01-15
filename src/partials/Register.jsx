@@ -37,7 +37,7 @@ function Register() {
                   dashboard.
                 </li>
               </ol>
-              <div className="flex gap-2">
+              {/* <div className="flex gap-2">
                 <p className="font-semibold">Or you can apply at</p>
                 <a
                   href="http://hack-jmi.devfolio.co"
@@ -46,7 +46,7 @@ function Register() {
                 >
                   hack-jmi.devfolio.co
                 </a>
-              </div>
+              </div> */}
               {/* Coming Soon */}
             </p>
           </div>

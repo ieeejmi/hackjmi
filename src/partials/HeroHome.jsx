@@ -89,7 +89,7 @@ function HeroHome(props) {
                 data-aos="zoom-y-out"
                 data-aos-delay="300"
               >
-                <div>
+                {/* <div>
                   <a
                     className="btn 
 										font-semibold w-full sm:w-auto sm:mb-0 mb-1 sm:ml-4 sm:mr-4 self-center bg-gradient-to-r bg-primary hover:bg-secondary text-white transition-all"
@@ -97,7 +97,7 @@ function HeroHome(props) {
                   >
                     How To Register ?
                   </a>
-                </div>
+                </div> */}
                 <div
                   className="apply-button self-center"
                   data-hackathon-slug="HackJMI"
