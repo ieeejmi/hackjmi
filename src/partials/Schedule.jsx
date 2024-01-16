@@ -7,7 +7,7 @@ function Schedule(props) {
 	
 	const eventSchedule = [
 		{
-		  interval: "14 January",
+		  interval: "18 January",
 		  title: "Registration Begins",
 		  description: "",
 		},
@@ -42,9 +42,9 @@ function Schedule(props) {
 					<div className="max-w-3xl mx-auto text-center " data-aos="flip-right">
 						<h1 className="dark:text-white h2 mb-4">Schedule</h1>
 						<div className="flex flex-col  w-full md:pb-12 pb-16">
-							<p className="italic text-gray-500">
+							{/* <p className="italic text-gray-500">
 								{"("} Dates are tentative and subject to change {")"}
-							</p>
+							</p> */}
 							{eventSchedule.map((event, index) => (
 								<div>
 									<div className="w-4 h-4 bg-white border-black border-2 ml-[1px] rounded-full " />
