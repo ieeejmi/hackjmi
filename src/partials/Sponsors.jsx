@@ -11,6 +11,7 @@ import Polygonwhite from "../images/sponsors/polygonwhite.png";
 import Quarbz from "../images/sponsors/quarbz.jpeg";
 import Rosenfeld from "../images/sponsors/rosenfeld.webp";
 import RosenfeldWhite from "../images/sponsors/rosenfeldWhite.webp";
+import Axure from "../images/sponsors/axure.png";
 
 function Sponsors() {
   let sponsorData = {
@@ -81,11 +82,12 @@ function Sponsors() {
       //   light: xyz,
       //   src: "https://gen.xyz/",
       // },
-      // {
-      //   dark: Axure,
-      //   light: Axure,
-      //   src: "https://www.axure.com/",
-      // },
+      {
+        dark: Axure,
+        light: Axure,
+        src: "https://www.axure.com/",
+        alt: "AXURE LOGO",
+      },
     ],
     //   "Certificate Partners": [
     //     {
@@ -100,7 +102,7 @@ function Sponsors() {
     "Title Sponsor": "w-1/2 md:w-40",
     "Platinum Sponsors": "w-1/2 md:w-1/4 lg:w-1/5",
     "Gold Sponsors": "w-1/2 md:w-1/4 lg:w-1/5",
-    "Silver Sponsors": "w-1/2",
+    "Silver Sponsors": "w-1/2 md:w-1/4 lg:w-1/5",
     "Certificate Partners": "w-1/2 md:w-1/4 lg:w-1/5",
   };
 
