@@ -82,7 +82,7 @@ function HeroHome(props) {
                 data-aos="zoom-y-out"
                 data-aos-delay="150"
               >
-                Hybrid Mode | 48 Hour Hackathon | To be announced
+                Hybrid Mode | 48 Hour Hackathon | 24-25 Feb
               </p>
               <div
                 className="max-w-xs mx-auto sm:max-w-none sm:flex sm:justify-center sm:items-center"
