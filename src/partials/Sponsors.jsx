@@ -9,6 +9,8 @@ import Replitwhite from "../images/sponsors/replitwhite.png";
 import Devfoliowhite from "../images/sponsors/devfoliowhite.png";
 import Polygonwhite from "../images/sponsors/polygonwhite.png";
 import Quarbz from "../images/sponsors/quarbz.jpeg";
+import Rosenfeld from "../images/sponsors/rosenfeld.webp";
+import RosenfeldWhite from "../images/sponsors/rosenfeldWhite.webp";
 
 function Sponsors() {
   let sponsorData = {
@@ -42,48 +44,49 @@ function Sponsors() {
         alt: "REPLIT LOGO",
       },
     ],
-    //   "Silver Sponsors": [
-    //     {
-    //       dark: Filecoinwhite,
-    //       light: Filecoin,
-    //       src: "https://filecoin.io/",
-    //     },
-    //     {
-    //       dark: Solanawhite,
-    //       light: Solana,
-    //       src: "https://solana.com/",
-    //     },
-    //     {
-    //       dark: Replitwhite,
-    //       light: Replit,
-    //       src: "https://replit.com/",
-    //     },
-    //     {
-    //       dark: Streamyard,
-    //       light: Streamyard,
-    //       src: "https://streamyard.com/",
-    //     },
-    //     {
-    //       dark: GOG,
-    //       light: GOG,
-    //       src: "https://www.geeksforgeeks.org/",
-    //     },
-    //     {
-    //       dark: NS,
-    //       light: NS,
-    //       src: "https://www.newtonschool.co/",
-    //     },
-    //     {
-    //       dark: xyzwhite,
-    //       light: xyz,
-    //       src: "https://gen.xyz/",
-    //     },
-    //     {
-    //       dark: Axure,
-    //       light: Axure,
-    //       src: "https://www.axure.com/",
-    //     },
-    //   ],
+    "Silver Sponsors": [
+      {
+        dark: RosenfeldWhite,
+        light: Rosenfeld,
+        src: "https://rosenfeldmedia.com/",
+        alt: "ROSENFELD LOGO",
+      },
+      // {
+      //   dark: Solanawhite,
+      //   light: Solana,
+      //   src: "https://solana.com/",
+      // },
+      // {
+      //   dark: Replitwhite,
+      //   light: Replit,
+      //   src: "https://replit.com/",
+      // },
+      // {
+      //   dark: Streamyard,
+      //   light: Streamyard,
+      //   src: "https://streamyard.com/",
+      // },
+      // {
+      //   dark: GOG,
+      //   light: GOG,
+      //   src: "https://www.geeksforgeeks.org/",
+      // },
+      // {
+      //   dark: NS,
+      //   light: NS,
+      //   src: "https://www.newtonschool.co/",
+      // },
+      // {
+      //   dark: xyzwhite,
+      //   light: xyz,
+      //   src: "https://gen.xyz/",
+      // },
+      // {
+      //   dark: Axure,
+      //   light: Axure,
+      //   src: "https://www.axure.com/",
+      // },
+    ],
     //   "Certificate Partners": [
     //     {
     //       dark: GMC,
@@ -97,7 +100,7 @@ function Sponsors() {
     "Title Sponsor": "w-1/2 md:w-40",
     "Platinum Sponsors": "w-1/2 md:w-1/4 lg:w-1/5",
     "Gold Sponsors": "w-1/2 md:w-1/4 lg:w-1/5",
-    "Silver Sponsors": "w-1/2 md:w-1/4 lg:w-1/5",
+    "Silver Sponsors": "w-1/2",
     "Certificate Partners": "w-1/2 md:w-1/4 lg:w-1/5",
   };
 
