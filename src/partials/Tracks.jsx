@@ -6,7 +6,6 @@ import TrackCard from "../components/Tracks/Card";
 
 function FeaturesBlocks() {
 	const { setIsDarkTheme } = useContext(DarkThemeContext);
-
 	return (
 		<section className="relative" id="tracks">
 			{/* Section background (needs .relative class on parent and next sibling elements) */}
@@ -22,16 +21,15 @@ function FeaturesBlocks() {
 						<h2 className={`dark:text-white h2 mb-4`} data-aos="fade-right">
 							Tracks
 						</h2>
-						<p className="text-xl italic text-gray-600">
+						{/* <p className="text-xl italic text-gray-600">
 							Coming soon!
-						</p>
-						{/* <p className="py-5 flex flex-wrap justify-center">
+						</p> */}
+						<p className="py-5 flex flex-wrap justify-center">
 							{tracksData.map((track, index) => {
 								return <TrackCard key={index} track={track} index={index} />;
 							})}
-						</p> */}
+						</p>
 					</div>
-
 					{/* Items */}
 					<div className="max-w-sm mx-auto hidden  gap-6 md:grid-cols-2 lg:grid-cols-3 items-start md:max-w-2xl lg:max-w-none">
 						{/* 1st item */}
