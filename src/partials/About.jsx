@@ -16,7 +16,7 @@ function Features() {
               witness and participate in a{" "}
               <strong>"48-hour long hackathon"</strong>,{" "}
               <strong>Hack JMI</strong>, brought to you by
-              <strong> IEEE JMI</strong>. The entrancing challenge ill provide
+              <strong> IEEE JMI</strong>. The entrancing challenge will provide
               students the opportunity to mess with real-world problems by
               remoulding them into something lucrative. "The simpler, the
               merrier. The sufficient, the efficient." The participants are

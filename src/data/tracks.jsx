@@ -6,26 +6,30 @@ import { GiTechnoHeart, GiMoneyStack } from "react-icons/gi";
 import { SiHiveBlockchain } from "react-icons/si";
 import { BiBrain } from "react-icons/bi";
 import { DiTechcrunch } from "react-icons/di";
+import { GiIndiaGate } from "react-icons/gi";
+import { FaVrCardboard } from "react-icons/fa6";
 const Tracks = [
 	{
 		id: 1,
-		featured: "M16 Labs Featured Problem Statement",
-		title: "Healthcare",
-		description: `Solution/Improvement based upon the Core Healthcare Technology of M16Labs. <a href='https://m16labs.com/' >M16Labs</a> #HealthyIndia through #HealthyYou by Making Care & Wellness Accessible.`,
-		icon: GiTechnoHeart,
+		featured: "IEEE JMI Featured Problem Statement",
+		title: "Viksit Bharat@2047",
+		description:
+			"Development towards various aspects of progress for the country, including economic growth, social progress, environmental sustainability, and good governance etc.",
+		icon: GiIndiaGate,
 	},
 	{
 		id: 2,
-		title: "Education",
-		description: "Upgrading the current educational system in India.",
-		icon: BsBookFill,
-	},
-	{
-		id: 3,
 		title: "Cyber-Security",
 		description:
 			"Securing the internet. Development of protection of internet-connected systems such as hardware, software and data from cyber-threats.",
 		icon: AiFillBug,
+	},
+	{
+		id: 3,
+		title: "Education",
+		description: 
+			"Upgrading the current educational system in India. Develop adaptive learning tools to support various learning styles including e-learning platforms, tools for student engagement, and systems for remote learning etc.",
+		icon: BsBookFill,
 	},
 	{
 		id: 4,
@@ -37,7 +41,8 @@ const Tracks = [
 	{
 		id: 5,
 		title: "Blockchain",
-		description: "Making the internet more decentralized!",
+		description: 
+			"Making the internet more decentralized!. Development towards blockchain innovation including smart contracts, decentralized applications (DApps) etc.",
 		icon: SiHiveBlockchain,
 	},
 	{
@@ -49,11 +54,26 @@ const Tracks = [
 	},
 	{
 		id: 7,
+		title: "AR/VR",
+		description:
+			"Enhancing Reality Experiences. Development of Augmented Reality (AR) and Virtual Reality (VR) applications.",
+		icon: FaVrCardboard,
+	},
+	{
+		id: 8,
+		title: "Healthcare",
+		description: 
+			"Transforming healthcare through innovation. Develop an innovative solution that addresses critical challenges in Healthcare and Well-Being.",
+		icon: GiTechnoHeart,
+	},
+	{
+		id: 9,
 		title: "Open Innovation",
 		description:
-			"Open to your creativity. Solution based on Agri-tech, AR/VR, Metaverse, Smart City, Automation, etc.",
+			"Open to your creativity. Solution based on Agri-tech, Digitalization, Metaverse, Smart City, Automation, etc.",
 		icon: BiBrain,
 	},
+
 ];
 
 export default Tracks;
