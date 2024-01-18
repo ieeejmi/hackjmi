@@ -12,6 +12,7 @@ import Quarbz from "../images/sponsors/quarbz.jpeg";
 import Rosenfeld from "../images/sponsors/rosenfeld.webp";
 import RosenfeldWhite from "../images/sponsors/rosenfeldWhite.webp";
 import Axure from "../images/sponsors/axure.png";
+import GMC from "../images/sponsors/GMC.png";
 
 function Sponsors() {
   let sponsorData = {
@@ -89,13 +90,14 @@ function Sponsors() {
         alt: "AXURE LOGO",
       },
     ],
-    //   "Certificate Partners": [
-    //     {
-    //       dark: GMC,
-    //       light: GMC,
-    //       src: "https://givemycertificate.com/",
-    //     },
-    //   ],
+    "Certificate Partners": [
+      {
+        dark: GMC,
+        light: GMC,
+        src: "https://givemycertificate.com/",
+        alt: "GIVE_MY_CERTIFICATE LOGO",
+      },
+    ],
   };
 
   const SponsorStyles = {
