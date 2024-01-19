@@ -13,6 +13,7 @@ import Rosenfeld from "../images/sponsors/rosenfeld.webp";
 import RosenfeldWhite from "../images/sponsors/rosenfeldWhite.webp";
 import Axure from "../images/sponsors/axure.png";
 import GMC from "../images/sponsors/GMC.png";
+import Beeceptor from "../images/sponsors/beeceptor.png";
 
 function Sponsors() {
   let sponsorData = {
@@ -52,6 +53,12 @@ function Sponsors() {
         light: Rosenfeld,
         src: "https://rosenfeldmedia.com/",
         alt: "ROSENFELD LOGO",
+      },
+      {
+        dark: Beeceptor,
+        light: Beeceptor,
+        src: "https://beeceptor.com/",
+        alt: "BEECEPTOR LOGO",
       },
       // {
       //   dark: Solanawhite,
