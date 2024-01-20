@@ -76,7 +76,7 @@ function Home() {
 
         <p className="theme-text flex justify-center dark:text-white">
           Made with ❤️ by
-          <span className="text-orange-500 ml-2">HACK JMI Team</span>
+          <span className="text-orange-500 ml-2">IEEE JMI Team</span>
         </p>
         <p className="items-center flex gap-4">
           {footerData.map((item, index) => {

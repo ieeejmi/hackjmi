@@ -127,6 +127,18 @@ function HeroHome(props) {
             </div>
             <div className="max-w-3xl mx-auto flex flex-col">
               <p className="theme-text text-gray-600 mt-36 text-sm">
+                Organised by
+              </p>
+              <div className="flex justify-center flex-wrap items-center gap-4">
+                <ThemeImage
+                  dark={IEEEwhite}
+                  light={IEEE}
+                  className={"w-32 h-32"}
+                />
+              </div>
+            </div>
+            <div className="max-w-3xl mx-auto flex flex-col">
+              <p className="theme-text text-gray-600 mt-4 text-sm">
                 in Collaboration with
               </p>
               <div className="flex justify-center flex-wrap items-center gap-4">
@@ -134,11 +146,6 @@ function HeroHome(props) {
                   dark={IEEECSwhite}
                   light={IEEECS}
                   className={"w-32 h-32 object-contain"}
-                />
-                <ThemeImage
-                  dark={IEEEwhite}
-                  light={IEEE}
-                  className={"w-32 h-32"}
                 />
                 {/* <ThemeImage dark={GDSCwhite} light={GDSC} className={"w-32"} /> */}
                 <img src={Hashes} className="w-32 h-32 scale-50" />
