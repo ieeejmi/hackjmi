@@ -22,6 +22,7 @@
     "react-countdown": "^2.3.5",
     "react-dom": "^18.2.0",
     "react-flatpickr": "^3.10.13",
+    "react-grid-gallery": "^1.0.1-alpha.0",
     "react-hook-form": "^7.42.0",
     "react-icons": "^4.7.1",
     "react-router-dom": "^6.3.0",
