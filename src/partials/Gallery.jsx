@@ -1,12 +1,8 @@
-
-
-
 import React, { useContext } from "react";
 import { DarkThemeContext } from "../App";
 import { Gallery } from "react-grid-gallery";
 
 function gallery() {
-
   const { isDarkTheme } = useContext(DarkThemeContext);
   const images = [
     {
@@ -56,7 +52,7 @@ function gallery() {
           Gallery
         </h1>
         <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
-          {images.map((x,index) => (
+          {images.map((x, index) => (
             <div>
               <img
                 className="h-auto max-w-full rounded-lg"
