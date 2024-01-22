@@ -38,13 +38,13 @@ const Tracks = [
       "Designing a technology that works towards enhancing and automating the delivery and use of financial services.",
     icon: GiMoneyStack,
   },
-  {
-    id: 5,
-    title: "FOSS",
-    description:
-      "Contributing to the development of a new open-source app, tool, or library, creating alternatives to existing popular apps or services, enhancing and extending existing projects or libraries, engaging in design projects by redesigning FOSS applications, and collaborating on open hardware initiatives.",
-    icon: DiOpensource,
-  },
+  // {
+  //   id: 5,
+  //   title: "FOSS",
+  //   description:
+  //     "Contributing to the development of a new open-source app, tool, or library, creating alternatives to existing popular apps or services, enhancing and extending existing projects or libraries, engaging in design projects by redesigning FOSS applications, and collaborating on open hardware initiatives.",
+  //   icon: DiOpensource,
+  // },
   {
     id: 6,
     title: "IoT",
