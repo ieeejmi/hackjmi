@@ -17,10 +17,12 @@ const Winner = ({ winner, index, currentIndex, nextSlide, prevSlide }) => {
       </div>
       <div className="flex-1 p-5 dark:text-white">
         <p className="mb-5 text-center text-3xl font-bold">{winner.teamName}</p>
-        <p className="text-center ">Project name</p>
-        <p className="text-center text-lg">{winner.projectName}</p>
-        <ul className="list-none list-inside">
-          MEMBERS:-
+        <div className="flex justify-between">
+          <p className="text-center ">Project name: </p>
+          <p className="text-center text-lg">{winner.projectName}</p>
+        </div>
+        <h3>MEMBERS:-</h3>
+        <ul className="list-none list-inside flex flex-wrap justify-between">
           {winner.TeamMember &&
             winner.TeamMember.map((member, memberIndex) => (
               <li key={memberIndex}>{member}</li>

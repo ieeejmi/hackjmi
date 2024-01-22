@@ -18,8 +18,8 @@ function past() {
     >
       <Header UpdateTheme={() => setIsDarkTheme(!isDarkTheme)} />
       <main className="flex-grow">
-        <PastWinners />
         <PreviousSponsors />
+        <PastWinners />
         {/* <Gallery /> */}
       </main>
     </div>

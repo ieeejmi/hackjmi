@@ -42,7 +42,7 @@ const PastWinners = () => {
         data-aos="zoom-out"
       >
         <h1 className="dark:text-white h2 mb-4" data-aos="zoom-in">
-          Past Winners
+          Previous Winners
         </h1>
         <div className="relative">
           <div className="flex overflow-x-auto relative">
