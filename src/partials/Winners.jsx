@@ -1,8 +1,7 @@
-import React, { useContext, useState } from "react";
-import { DarkThemeContext } from "../App";
+import React, { useState } from "react";
 import sim4img from "../images/PastWinner/winner1.jpg";
 import img2 from "../images/PastWinner/winner2.jpg";
-import { FaArrowLeft, FaArrowRight } from "react-icons/fa";
+import Winner from "../components/Winners/Winner";
 
 const winners = [
   {
@@ -24,7 +23,6 @@ const winners = [
 ];
 
 const PastWinners = () => {
-  const { isDarkTheme } = useContext(DarkThemeContext);
   const [currentIndex, setCurrentIndex] = useState(0);
 
   const nextSlide = () => {
@@ -48,57 +46,19 @@ const PastWinners = () => {
         </h1>
         <div className="relative">
           <div className="flex overflow-x-auto relative">
-            {winners.map((winner, index) => (
-              <div
-                key={index}
-                className={`flex flex-col lg:flex-row mx-2 w-90 m-2 ${
-                  index === currentIndex ? "" : "hidden"
-                }`}
-              >
-                <div className="flex-1 overflow-hidden rounded">
-                  <img src={winner.img} alt="" className="w-full h-full" />
-                </div>
-                <div className="flex-1 p-5 dark:text-white">
-                  <p className="mb-5 text-center text-3xl font-bold">
-                    {winner.teamName}
-                  </p>
-                  <p className="text-center ">Project name</p>
-                  <p className="text-center text-lg">{winner.projectName}</p>
-                  <ul className="list-none list-inside">
-                    MEMBERS:-
-                    {winner.TeamMember.map((member, memberIndex) => (
-                      <li key={memberIndex}>{member}</li>
-                    ))}
-                  </ul>
-                  <p className="italic text-gray text-2xl dark:text-gray-300">
-                    Review
-                  </p>
-                  <div className="italic text-gray-500 mt-15 h-60 overflow-auto scrollbar-thin scrollbar-thumb-blue-500 scrollbar-track-gray-300 dark:scrollbar-thumb-blue-300 dark:scrollbar-track-gray-700">
-                    <p>{winner.Review}</p>
-                  </div>
-                  <div className="flex justify-between m-6">
-                    <div
-                      className="flex items-center cursor-pointer"
-                      onClick={prevSlide}
-                    >
-                      <FaArrowLeft
-                        style={{ fontSize: "2rem" }}
-                        className="text-gray-500 dark:text-gray-300"
-                      />
-                    </div>
-                    <div
-                      className="flex items-center cursor-pointer"
-                      onClick={nextSlide}
-                    >
-                      <FaArrowRight
-                        style={{ fontSize: "2rem" }}
-                        className="text-gray-500 dark:text-gray-300"
-                      />
-                    </div>
-                  </div>
-                </div>
-              </div>
-            ))}
+            {winners &&
+              winners.map((winner, index) => (
+                <Winner
+                  {...{
+                    key: index,
+                    index,
+                    winner,
+                    currentIndex,
+                    nextSlide,
+                    prevSlide,
+                  }}
+                />
+              ))}
           </div>
         </div>
       </div>
