@@ -39,10 +39,10 @@ function TeamsList({ teams = new TeamService() }) {
     // 	name: "Social Media & Content Team",
     // 	tag: TeamTypes.Social_Media_And_Content,
     // },
-    {
-      name: "Outreach Team",
-      tag: TeamTypes.Outreach,
-    },
+    // {
+    //   name: "Outreach Team",
+    //   tag: TeamTypes.Outreach,
+    // },
   ];
 
   console.log(teams);
