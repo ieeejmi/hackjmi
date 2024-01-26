@@ -44,8 +44,8 @@ function Prizes() {
 							</button>
 						</div>
 					</div>
-					{/* {active == state.prizes ? <PrizesComponent /> : <Swags />} */}
-					<h2 className="dark:text-white h2 text-xl  mb-4">Coming Soon..</h2>
+					{active == state.prizes ? <PrizesComponent /> :<h2 className="dark:text-white h2 text-xl  mb-4">Coming Soon..</h2>}
+
 
 				</div>
 			</div>
