@@ -38,6 +38,13 @@ const Tracks = [
       "Designing a technology that works towards enhancing and automating the delivery and use of financial services.",
     icon: GiMoneyStack,
   },
+  {
+    id: 5,
+    title: "Blockchain",
+    description:
+      "Making the internet more decentralized!. Development towards blockchain innovation including smart contracts, decentralized applications (DApps) etc.",
+    icon: SiHiveBlockchain,
+  },
   // {
   //   id: 5,
   //   title: "FOSS",
@@ -73,13 +80,6 @@ const Tracks = [
       "Open to your creativity. Solution based on Agri-tech, Digitalization, Metaverse, Smart City, Automation, etc.",
     icon: BiBrain,
   },
-  //   {
-  //     id: 5,
-  //     title: "Blockchain",
-  //     description:
-  //       "Making the internet more decentralized!. Development towards blockchain innovation including smart contracts, decentralized applications (DApps) etc.",
-  //     icon: SiHiveBlockchain,
-  //   },
 ];
 
 export default Tracks;
