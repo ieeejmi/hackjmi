@@ -15,6 +15,7 @@ import Axure from "../images/sponsors/axure.png";
 import GMC from "../images/sponsors/GMC.png";
 import Beeceptor from "../images/sponsors/beeceptor.png";
 import InterviewBuddy from "../images/sponsors/interviewBuddy.jpeg";
+import HatkeSocials from "../images/sponsors/haktesocial.jpeg";
 
 function Sponsors() {
   let sponsorData = {
@@ -110,6 +111,14 @@ function Sponsors() {
         light: GMC,
         src: "https://givemycertificate.com/",
         alt: "GIVE_MY_CERTIFICATE LOGO",
+      },
+    ],
+    "Media Partners": [
+      {
+        dark: HatkeSocials,
+        light: HatkeSocials,
+        src: "https://www.instagram.com/hatkesocial/",
+        alt: "HATKE_SOCIALS LOGO",
       },
     ],
   };
