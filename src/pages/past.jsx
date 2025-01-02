@@ -16,7 +16,7 @@ function past() {
 		<div className="dark:bg-black transition-all flex flex-col min-h-screen overflow-hidden" id="">
 			<Header UpdateTheme={() => setIsDarkTheme(!isDarkTheme)} />
             <main className="flex-grow">
-				<Gallery />
+				{/*<Gallery />*/}
 				<PastWinners />
 				<PreviousSponsors />
 			</main>
