@@ -31,21 +31,21 @@ function TeamsList({ teams = new TeamService() }) {
       name: "Technical Team",
       tag: TeamTypes.Technical,
     },
-    // {
-    // 	name: "Design Team",
-    // 	tag: TeamTypes.Design,
-    // },
+    {
+      name: "Graphics Team",
+      tag: TeamTypes.Design,
+    },
     // {
     // 	name: "Social Media & Content Team",
     // 	tag: TeamTypes.Social_Media_And_Content,
     // },
     {
-      name: "Outreach Team",
+      name: "Marketing and Outreach Team",
       tag: TeamTypes.Outreach,
     },
   ];
 
-  console.log(teams);
+  // console.log(teams);
 
   const colourStyles = {
     option: (styles) => ({

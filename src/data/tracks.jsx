@@ -40,11 +40,18 @@ const Tracks = [
   },
   {
     id: 5,
-    title: "FOSS",
+    title: "Blockchain",
     description:
-      "Contributing to the development of a new open-source app, tool, or library, creating alternatives to existing popular apps or services, enhancing and extending existing projects or libraries, engaging in design projects by redesigning FOSS applications, and collaborating on open hardware initiatives.",
-    icon: DiOpensource,
+      "Making the internet more decentralized!. Development towards blockchain innovation including smart contracts, decentralized applications (DApps) etc.",
+    icon: SiHiveBlockchain,
   },
+  // {
+  //   id: 5,
+  //   title: "FOSS",
+  //   description:
+  //     "Contributing to the development of a new open-source app, tool, or library, creating alternatives to existing popular apps or services, enhancing and extending existing projects or libraries, engaging in design projects by redesigning FOSS applications, and collaborating on open hardware initiatives.",
+  //   icon: DiOpensource,
+  // },
   {
     id: 6,
     title: "IoT",
@@ -73,13 +80,6 @@ const Tracks = [
       "Open to your creativity. Solution based on Agri-tech, Digitalization, Metaverse, Smart City, Automation, etc.",
     icon: BiBrain,
   },
-  //   {
-  //     id: 5,
-  //     title: "Blockchain",
-  //     description:
-  //       "Making the internet more decentralized!. Development towards blockchain innovation including smart contracts, decentralized applications (DApps) etc.",
-  //     icon: SiHiveBlockchain,
-  //   },
 ];
 
 export default Tracks;

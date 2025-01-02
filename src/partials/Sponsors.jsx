@@ -14,6 +14,8 @@ import RosenfeldWhite from "../images/sponsors/rosenfeldWhite.webp";
 import Axure from "../images/sponsors/axure.png";
 import GMC from "../images/sponsors/GMC.png";
 import Beeceptor from "../images/sponsors/beeceptor.png";
+import InterviewBuddy from "../images/sponsors/interviewBuddy.jpeg";
+import HatkeSocials from "../images/sponsors/haktesocial.jpeg";
 
 function Sponsors() {
   let sponsorData = {
@@ -96,6 +98,12 @@ function Sponsors() {
         src: "https://www.axure.com/",
         alt: "AXURE LOGO",
       },
+      {
+        dark: InterviewBuddy,
+        light: InterviewBuddy,
+        src: "https://interviewbuddy.net/",
+        alt: "INTERVIEW_BUDDY LOGO",
+      },
     ],
     "Certificate Partners": [
       {
@@ -103,6 +111,14 @@ function Sponsors() {
         light: GMC,
         src: "https://givemycertificate.com/",
         alt: "GIVE_MY_CERTIFICATE LOGO",
+      },
+    ],
+    "Media Partners": [
+      {
+        dark: HatkeSocials,
+        light: HatkeSocials,
+        src: "https://www.instagram.com/hatkesocial/",
+        alt: "HATKE_SOCIALS LOGO",
       },
     ],
   };
