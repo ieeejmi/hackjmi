@@ -29,7 +29,7 @@ function Prizes() {
 							<button
 								className={`p-2 border-b-4 dark:text-white rounded-t-md ${
 									active == state.prizes &&
-									"border-orange-400 bg-orange-100 dark:text-black"
+									"border-orange-300 bg-orange-400 dark:text-black"
 								} transition-all `}
 								onClick={() => setActive(state.prizes)}>
 								Prizes
@@ -37,7 +37,7 @@ function Prizes() {
 							<button
 								className={`p-2 border-b-4 dark:text-white rounded-t-md ${
 									active == state.swags &&
-									"border-orange-400 bg-orange-100 dark:text-black"
+									"border-orange-300 bg-orange-400 dark:text-black"
 								} transition-all `}
 								onClick={() => setActive(state.swags)}>
 								Swags for All

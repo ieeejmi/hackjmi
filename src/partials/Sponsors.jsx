@@ -139,7 +139,7 @@ function Sponsors() {
                 Click Here
               </a>
             </div>
-            {Object.keys(sponsorData).map((key) => (
+            {/*Object.keys(sponsorData).map((key) => (
               <div className="w-full flex flex-col items-center mt-5">
                 <div className="flex w-full flex-row items-center justify-center mb-2">
                   <hr className={`w-20 m-2 dark:text-white`} />
@@ -169,7 +169,7 @@ function Sponsors() {
                   })}
                 </div>
               </div>
-            ))}
+            ))*/}
           </div>
         </div>
 

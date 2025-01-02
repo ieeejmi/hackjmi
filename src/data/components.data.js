@@ -8,9 +8,9 @@ const communitypartnerData = [
   // {
   //     src: GDSCDTC
   // },
-  {
-    src: IEEEJHSB,
-  },
+  //{
+  //  src: IEEEJHSB,
+  //},
   // {
   //     src: Xplorica,
   //     href: "http://xplorica.in/"
