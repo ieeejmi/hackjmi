@@ -7,28 +7,28 @@ function Schedule(props) {
 	
 	const eventSchedule = [
 		{
-		  interval: "18 January",
+		  interval: "15 January",
 		  title: "Registration Begins",
 		  description: "",
 		},
 		{
-		  interval: "24 February",
+		  interval: "5 February",
 		  title: "Registration Ends",
 		},
 		{
-		  interval: "24 February",
+		  interval: "7 February",
 		  title: "Hackathon Begins",
 		},
 		{
-		  interval: "25 February",
+		  interval: "8 February",
 		  title: "Hackathon Ends",
 		},
 		{
-		  interval: "3 March",
+		  interval: "TBD",
 		  title: "Finalist Announced",
 		},
 		{
-		  interval: "3 March",
+		  interval: "TBD",
 		  title: "Finalist Presentations",
 		},
 	  ];
