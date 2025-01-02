@@ -36,7 +36,7 @@ function EventsCard({ event }) {
             {event.name}
           </h1>
           <p
-            className={`dark:text-white/60 text-start transition-all md:text-start text-center`}
+            className={`dark:text-white transition-all md:text-start text-center`}
           >
             {event.content?.substring(0, 100)}...
           </p>

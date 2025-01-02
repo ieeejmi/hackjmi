@@ -5,6 +5,7 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
+import Quarbz from "../images/sponsors/quarbz.jpeg";
 import Devfolio from "../images/sponsors/devfolio.png";
 import Polygon from "../images/sponsors/polygon.png";
 import Filecoin from "../images/sponsors/filecoin.png";
@@ -23,6 +24,9 @@ import Solanawhite from "../images/sponsors/solanawhite.png";
 import M16Labs from "../images/sponsors/m16labs-logo.png";
 import Axure from "../images/sponsors/axure.png";
 import Streamyard from "../images/sponsors/streamyard.png";
+import Rosenfeld from "../images/sponsors/rosenfeld.webp";
+import RosenfeldWhite from "../images/sponsors/rosenfeldWhite.webp";
+import Beeceptor from "../images/sponsors/beeceptor.png";
 
 import { DarkThemeContext } from "../App";
 import { Link } from "react-router-dom";
@@ -116,9 +120,34 @@ function PreviousSponsors(props) {
         src: "https://givemycertificate.com/",
       },
     ],
+    "Typhoon":[
+      {
+        dark: Quarbz,
+        light: Quarbz,
+        src: "https://quarbz.com/",
+        alt: "QUARBZ LOGO",
+      },
+    ],
+    "Rosenfeld":[
+      {
+        dark: RosenfeldWhite,
+        light: Rosenfeld,
+        src: "https://rosenfeldmedia.com/",
+        alt: "ROSENFELD LOGO",
+      },
+    ],
+    "Beeceptor":[
+      {
+        dark: Beeceptor,
+        light: Beeceptor,
+        src: "https://beeceptor.com/",
+        alt: "BEECEPTOR LOGO",
+      },
+    ],
   };
 
   const settings = {
+    className: "max-h-min my-auto",
     infinite: true,
     slidesToShow: 2,
     slidesToScroll: 1,
@@ -127,6 +156,7 @@ function PreviousSponsors(props) {
     autoplaySpeed: 2000,
     cssEase: "ease-in-out",
     arrows: false,
+    centerMode: true,
   };
 
   return (
@@ -155,28 +185,25 @@ function PreviousSponsors(props) {
             </div>
             <Slider {...settings}>
               {Object.keys(sponsorData).map((key) => (
-                <div className="w-full flex flex-row items-center mt-5">
-                  <div className=" w-full rounded-md flex flex-wrap justify-center items-center gap-4">
-                    {sponsorData[key].map((sponsor) => {
-                      return (
-                        <>
-                          <button
-                            className={`w-1/3 
-												p-2`}
-                            data-aos="fade-up"
-                            onClick={() => {
-                              window.open(sponsor.src, "_blank");
-                            }}
-                          >
-                            <ThemeImage
-                              dark={sponsor.dark}
-                              light={sponsor.light}
-                              className={"w-full rounded-md h-full"}
-                            />
-                          </button>
-                        </>
-                      );
-                    })}
+                <div className="w-full flex items-center justify-center h-32">
+                  {/* Ensure the outer div aligns the content properly */}
+                  <div className="w-full rounded-md flex flex-wrap justify-center items-center h-full">
+                    {sponsorData[key].map((sponsor) => (
+                      <button
+                        key={sponsor.src} // Add a unique key for React
+                        className="w-1/3 h-full p-2 flex justify-center items-center"
+                        data-aos="fade-up"
+                        onClick={() => {
+                          window.open(sponsor.src, "_blank");
+                        }}
+                      >
+                        <ThemeImage
+                          dark={sponsor.dark}
+                          light={sponsor.light}
+                          className="w-full rounded-md h-auto max-h-full"
+                        />
+                      </button>
+                    ))}
                   </div>
                 </div>
               ))}
