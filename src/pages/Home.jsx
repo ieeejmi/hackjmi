@@ -21,7 +21,7 @@ import Prizes from "../partials/Prizes";
 import Contact from "../partials/Contact";
 import CommunityPartner from "../partials/CommunityPartner";
 import Events from "../partials/Events";
-import { useContext } from "react";
+import { useContext,useEffect } from "react";
 import { DarkThemeContext } from "../App";
 
 const footerData = [
@@ -41,16 +41,6 @@ const footerData = [
 
 function Home() {
   const { setIsDarkTheme, isDarkTheme } = useContext(DarkThemeContext);
-  useEffect(() => {
-      const script = document.createElement("script");
-      script.src = "https://apply.devfolio.co/v2/sdk.js";
-      script.async = true;
-      script.defer = true;
-      document.body.appendChild(script);
-      return () => {
-        document.body.removeChild(script);
-      };
-    }, []);
   return (
     <div
       className="dark:bg-black transition-all flex flex-col min-h-screen overflow-hidden"

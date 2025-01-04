@@ -24,7 +24,7 @@ function Register() {
                 data-button-theme="light"
             ></div>
             </div>
-            <p className="text-gray-600 dark:text-white w-full text-left">              
+            <section className="text-gray-600 dark:text-white w-full text-left">              
               <strong>To register, follow these steps:</strong>
               <ol className="flex flex-col gap-2 mt-4 mb-4">
                 <li>1. Click the "Apply with Devfolio" button above</li>
@@ -53,7 +53,7 @@ function Register() {
                 </a>
               </div> */}
               {/* Coming Soon */}
-            </p>
+            </section>
           </div>
         </div>
 
