@@ -21,7 +21,7 @@ function Register() {
             <div
                 className="apply-button self-center justify-center"
                 data-hackathon-slug="hackjmi2025"
-                data-button-theme={buttonTheme}
+                data-button-theme="light"
             ></div>
             </div>
             <p className="text-gray-600 dark:text-white w-full text-left">              
