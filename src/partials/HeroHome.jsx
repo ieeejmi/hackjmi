@@ -17,7 +17,16 @@ function HeroHome(props) {
   const [videoModalOpen, setVideoModalOpen] = useState(false);
 
   const { isDarkTheme } = useContext(DarkThemeContext);
-
+  useEffect(() => {
+      const script = document.createElement("script");
+      script.src = "https://apply.devfolio.co/v2/sdk.js";
+      script.async = true;
+      script.defer = true;
+      document.body.appendChild(script);
+      return () => {
+        document.body.removeChild(script);
+      };
+  }, []);
   return (
     <section className="relative">
       {/* Illustration behind hero content */}
