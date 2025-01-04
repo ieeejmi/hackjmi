@@ -26,7 +26,7 @@ import { DarkThemeContext } from "../App";
 
 const footerData = [
   {
-    link: "https://bit.ly/hackjmi-discord",
+    link: "https://discord.gg/SAuwcqQVMV",
     icon: FaDiscord,
   },
   {
@@ -34,7 +34,7 @@ const footerData = [
     icon: FaInstagram,
   },
   {
-    link: "https://chat.whatsapp.com/F6k9ATiCBqUJJgQTE8TAyi",
+    link: "https://chat.whatsapp.com/BAI4iUyTx6G257mkrX9H7q",
     icon: FaWhatsapp,
   },
 ];
@@ -58,8 +58,8 @@ function Home() {
         <About />
         <Tracks />
         <Schedule />
-        <Events />
-        <Prizes />
+        {/*<Events />*/}
+        <Prizes/>
         <Sponsors />
         <CommunityPartner />
         {/* <Mentors /> */}

@@ -10,7 +10,6 @@ import PreviousSponsors from "../partials/PreviousSponsors";
 
 function past() {
   const { setIsDarkTheme, isDarkTheme } = useContext(DarkThemeContext);
-
   return (
     <div
       className="dark:bg-black transition-all flex flex-col min-h-screen overflow-hidden"

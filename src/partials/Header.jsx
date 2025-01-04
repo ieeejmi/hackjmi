@@ -104,7 +104,7 @@ function Header({ UpdateTheme }) {
 						{/* Site branding */}
 						<div className="flex-shrink-0 mr-4">
 							{/* Logo */}
-							<a href="#" className="flex gap-2" aria-label="Cruip">
+							<a href="/" className="flex gap-2" aria-label="Cruip">
 								<img src={Logo} alt="Logo" className="w-14" />
 							</a>
 						</div>

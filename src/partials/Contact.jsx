@@ -24,7 +24,7 @@ function Contact() {
 
 		try {
 			await emailjs.send(
-				"Contact",
+				"service_tqoly3u",
 				"template_bavbiho",
 				{
 					name: data.name,
@@ -57,8 +57,8 @@ function Contact() {
 							<div className="pt-5 flex flex-col gap-5 text-white h-full">
 								<div>
 									<div className="text-md">Phone</div>
-									<div className="text-lg opacity-70">+91-7091498536</div>
-									<div className="text-lg opacity-70">+91-7827993739</div>
+									<div className="text-lg opacity-70">+91 8120289237</div>
+									<div className="text-lg opacity-70">+91 9810201230</div>
 								</div>
 								<div>
 									<div className="text-md">Email</div>
@@ -82,7 +82,7 @@ function Contact() {
 									</button>
 									<button
 										onClick={() => {
-											window.open("https://discord.gg/Bpa9DYhA7T");
+											window.open("https://discord.gg/SAuwcqQVMV");
 										}}>
 										<BsDiscord className="w-7 h-7 hover:scale-90 transition-all " />
 									</button>
@@ -143,7 +143,7 @@ function Contact() {
 																	isSubmitted === formState.LOADING &&
 																	"opacity-50"
 																} `}
-									disabled={isSubmitted === formState.LOADING}>
+									disabled={isSubmitted === formState.LOADING} type="submit">
 									{isSubmitted === formState.LOADING ? "Sending.." : "Send"}
 								</button>
 							</div>

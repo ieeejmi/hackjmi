@@ -13,16 +13,21 @@ function Register() {
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-16">
             <h1 className="dark:text-white h2 mb-4">Register</h1>
-            <p className="text-gray-600 dark:text-white w-full text-left">
-              <div
-                className="apply-button self-center"
-                data-hackathon-slug="HackJMI"
+            <div
+                className="max-w-xs mx-auto sm:max-w-none sm:flex sm:justify-center sm:items-center mb-2"
+                data-aos="zoom-y-out"
+                data-aos-delay="300"
+              >
+            <div
+                className="apply-button self-center justify-center"
+                data-hackathon-slug="HackJMI2025"
                 data-button-theme={isDarkTheme ? "dark" : "light"}
-              ></div>
-
+            ></div>
+            </div>
+            <p className="text-gray-600 dark:text-white w-full text-left">              
               <strong>To register, follow these steps:</strong>
               <ol className="flex flex-col gap-2 mt-4 mb-4">
-                <li>1. Click the "Apply with Devfolio" button below</li>
+                <li>1. Click the "Apply with Devfolio" button above</li>
                 <li>
                   2. Create an account on devfolio. If you already have an
                   account, sign in.

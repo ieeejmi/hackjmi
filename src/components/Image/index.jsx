@@ -5,13 +5,15 @@ function ThemeImage({ dark, light, className, ref, alt }) {
   const { isDarkTheme } = useContext(DarkThemeContext);
 
   return (
-    <React.Fragment>
+    <>
+      <div className="my-auto w-full justify-center flex">
       {isDarkTheme ? (
         <img alt={alt ? alt : ""} src={dark} className={className} ref={ref} />
       ) : (
         <img alt={alt ? alt : ""} src={light} className={className} ref={ref} />
       )}
-    </React.Fragment>
+      </div>
+    </>
   );
 }
 

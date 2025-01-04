@@ -11,7 +11,10 @@ const communitypartnerData = [
   // {
   //     src: GDSCDTC
   // },
-  {
+  //{
+  //  src: IEEEJHSB,
+  //},
+  /*{
     src: IEEEJHSB,
   },
   {
@@ -22,7 +25,7 @@ const communitypartnerData = [
   },
   {
     src: ECECLLJMI,
-  },
+  },*/
   // {
   //     src: Xplorica,
   //     href: "http://xplorica.in/"
