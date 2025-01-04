@@ -16,17 +16,19 @@ import GMC from "../images/sponsors/GMC.png";
 import Beeceptor from "../images/sponsors/beeceptor.png";
 import InterviewBuddy from "../images/sponsors/interviewBuddy.jpeg";
 import HatkeSocials from "../images/sponsors/haktesocial.jpeg";
+import ETHIndiaDark from "../images/sponsors/ethindia-dark.png";
+import ETHIndiaLight from "../images/sponsors/ethindia-light.png";
 
 function Sponsors() {
   let sponsorData = {
-    "Title Sponsor": [
+    /*"Title Sponsor": [
       {
         dark: Quarbz,
         light: Quarbz,
         src: "https://quarbz.com/",
         alt: "QUARBZ LOGO",
       },
-    ],
+    ],*/
     "Platinum Sponsors": [
       {
         dark: Devfoliowhite,
@@ -40,7 +42,14 @@ function Sponsors() {
         src: "https://polygon.technology/",
         alt: "POLYGON LOGO",
       },
+      {
+        dark: ETHIndiaLight,
+        light: ETHIndiaDark,
+        src: "https://ethindia.co",
+        alt: "ETHINDIA LOGO",
+      }
     ],
+    /*
     "Gold Sponsors": [
       {
         dark: Replitwhite,
@@ -104,7 +113,7 @@ function Sponsors() {
         src: "https://interviewbuddy.net/",
         alt: "INTERVIEW_BUDDY LOGO",
       },
-    ],
+    ],*/
     "Certificate Partners": [
       {
         dark: GMC,
@@ -113,6 +122,7 @@ function Sponsors() {
         alt: "GIVE_MY_CERTIFICATE LOGO",
       },
     ],
+    /*
     "Media Partners": [
       {
         dark: HatkeSocials,
@@ -120,7 +130,7 @@ function Sponsors() {
         src: "https://www.instagram.com/hatkesocial/",
         alt: "HATKE_SOCIALS LOGO",
       },
-    ],
+    ],*/
   };
 
   const SponsorStyles = {
@@ -155,7 +165,7 @@ function Sponsors() {
                 Click Here
               </a>
             </div>
-            {/*Object.keys(sponsorData).map((key) => (
+            {Object.keys(sponsorData).map((key) => (
               <div className="w-full flex flex-col items-center mt-5">
                 <div className="flex w-full flex-row items-center justify-center mb-2">
                   <hr className={`w-20 m-2 dark:text-white`} />
@@ -185,7 +195,7 @@ function Sponsors() {
                   })}
                 </div>
               </div>
-            ))*/}
+            ))}
           </div>
         </div>
 
