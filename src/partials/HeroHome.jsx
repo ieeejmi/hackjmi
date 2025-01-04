@@ -101,7 +101,7 @@ function HeroHome(props) {
                 <div
                   className="apply-button self-center"
                   data-hackathon-slug="hackjmi2025"
-                  data-button-theme={isDarkTheme ? "dark" : "light"}
+                  data-button-theme="light"
                 ></div>
               </div>
               <div
