@@ -11,7 +11,6 @@ function TrackCard({ index, track }) {
 	const resetMousePosition = () => {
 		setMousePosition({ x: 0, y: 0 });
 	};
-
 	return (
 		<motion.div
 			className="w-full md:w-1/3 p-2"

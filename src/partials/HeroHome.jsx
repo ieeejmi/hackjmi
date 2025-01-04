@@ -1,4 +1,4 @@
-import React, { useContext, useState } from "react";
+import React, { useContext, useState,useEffect } from "react";
 
 // Images
 import IEEE from "../images/brands/ieeejmi.png";
@@ -77,7 +77,7 @@ function HeroHome(props) {
               <span
                 className="text-transparent ml-4"
                 style={{
-                  "-webkit-text-stroke": isDarkTheme
+                  "WebkitTextStroke": isDarkTheme
                     ? "2px #fff"
                     : "2px #494949",
                 }}

@@ -38,16 +38,6 @@ function App() {
 		document.querySelector("html").style.scrollBehavior = "";
 	}, [location.pathname]); // triggered on route change
 
-	useEffect(() => {
-		const script = document.createElement("script");
-		script.src = "https://apply.devfolio.co/v2/sdk.js";
-		script.async = true;
-		script.defer = true;
-		document.body.appendChild(script);
-		return () => {
-			document.body.removeChild(script);
-		};
-	}, []);
 
 	const [isDarkTheme, setIsDarkTheme] = useState(
 		document.documentElement.classList.contains("dark")
