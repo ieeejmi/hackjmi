@@ -8,9 +8,9 @@ function ThemeImage({ dark, light, className, ref, alt }) {
     <>
       <div className="my-auto w-full justify-center flex">
       {isDarkTheme ? (
-        <img alt={alt ? alt : ""} src={dark} className={className} ref={ref} />
+        <img alt={alt} src={dark} className={className} ref={ref} />
       ) : (
-        <img alt={alt ? alt : ""} src={light} className={className} ref={ref} />
+        <img alt={alt} src={light} className={className} ref={ref} />
       )}
       </div>
     </>
