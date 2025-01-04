@@ -100,8 +100,8 @@ function HeroHome(props) {
                 </div> */}
                 <div
                   className="apply-button self-center"
-                  data-hackathon-slug="HackJMI2025"
-                  data-button-theme="dark"
+                  data-hackathon-slug="hackjmi2025"
+                  data-button-theme={isDarkTheme ? "dark" : "light"}
                 ></div>
               </div>
               <div
@@ -114,12 +114,12 @@ function HeroHome(props) {
                 </p>
                 <div className="flex gap-5 mt-2">
                   <a
-                    href="https://chat.whatsapp.com/F6k9ATiCBqUJJgQTE8TAyi"
+                    href="https://chat.whatsapp.com/LC9VBuH0yCjBeQhLqLkPEC"
                     target="_blank"
                   >
                     <FaWhatsapp className="w-10 h-10 dark:text-white hover:scale-90 transition-all" />
                   </a>
-                  <a href="https://bit.ly/hackjmi-discord" target="_blank">
+                  <a href="https://discord.gg/SAuwcqQVMV" target="_blank">
                     <FaDiscord className="w-10 h-10 dark:text-white hover:scale-90 transition-all" />
                   </a>
                 </div>

@@ -4,7 +4,7 @@ import Transition from "../utils/Transition";
 
 function Register() {
   const { isDarkTheme } = useContext(DarkThemeContext);
-
+  const buttonTheme = isDarkTheme ? "dark" : "light";
   return (
     <section className="relative" id="register">
       {/* Section background (needs .relative class on parent and next sibling elements) */}
@@ -20,8 +20,8 @@ function Register() {
               >
             <div
                 className="apply-button self-center justify-center"
-                data-hackathon-slug="HackJMI2025"
-                data-button-theme={isDarkTheme ? "dark" : "light"}
+                data-hackathon-slug="hackjmi2025"
+                data-button-theme={buttonTheme}
             ></div>
             </div>
             <p className="text-gray-600 dark:text-white w-full text-left">              
