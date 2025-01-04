@@ -109,7 +109,7 @@ function HeroHome(props) {
                 </div> */}
                 <div
                   className="apply-button self-center"
-                  data-hackathon-slug="hackjmi2025"
+                  data-hackathon-slug="hackjmi"
                   data-button-theme="light"
                 ></div>
               </div>
