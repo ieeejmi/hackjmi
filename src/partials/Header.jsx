@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useRef, useContext } from "react";
 import { Link } from "react-router-dom";
 import { useComponentSize } from "../hooks/useComponentSize";
-import Logo from "../images/logo.png";
+import Logo from "../images/hackjmi2025logo_transparent.png";
 import { DarkThemeContext } from "../App";
 import { RxHamburgerMenu } from "react-icons/rx";
 import { AiOutlineClose } from "react-icons/ai";

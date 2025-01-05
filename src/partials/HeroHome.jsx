@@ -1,4 +1,4 @@
-import React, { useContext, useState,useEffect } from "react";
+import React, { useContext, useState,useEffect,useLayoutEffect } from "react";
 
 // Images
 import IEEE from "../images/brands/ieeejmi.png";
@@ -8,7 +8,7 @@ import IEEEwhite from "../images/brands/ieeewhite.png";
 import GDSCwhite from "../images/brands/gdscwhite.png";
 import IEEECS from "../images/brands/ieeecs.png";
 import IEEECSwhite from "../images/brands/ieeecswhite.png";
-import Logo from "../images/logo.png";
+import Logo from "../images/hackjmi2025logo_transparent.png";
 import { DarkThemeContext } from "../App";
 import { FaDiscord, FaWhatsapp } from "react-icons/fa";
 import ThemeImage from "../components/Image";
@@ -109,7 +109,7 @@ function HeroHome(props) {
                 </div> */}
                 <div
                   className="apply-button self-center"
-                  data-hackathon-slug="hackjmi2025"
+                  data-hackathon-slug="hackjmi"
                   data-button-theme="light"
                 ></div>
               </div>
