@@ -14,7 +14,7 @@ function PrizesComponent() {
             <strong>1st</strong> Prize
           </h1>
           <div className="flex flex-col justify-center items-center md:text-base text-sm">
-            <p className=" dark:text-white/60">₹ 5,000</p>
+            <p className=" dark:text-white/60">TBD</p>
           </div>
         </div>
         <div className="md:w-1/4 w-1/3 flex flex-col justify-center items-center border-t-4 hover:border-orange-600 hover:bg-orange-100/20 border-transparent transition-all pt-6">
@@ -23,7 +23,7 @@ function PrizesComponent() {
             Best <strong>ViksitBharat@2050</strong> Project
           </h1>
           <div className="flex flex-col justify-center items-center md:text-base text-sm">
-            <p className="dark:text-white/60">₹ 3,000</p>
+            <p className="dark:text-white/60">TBD</p>
           </div>
         </div>
         <div className="md:w-1/4 w-1/3 flex flex-col justify-center items-center border-t-4 hover:border-orange-600 hover:bg-orange-100/20 border-transparent transition-all pt-6">
@@ -32,12 +32,12 @@ function PrizesComponent() {
             <strong>RunnerUp</strong> Prizes
           </h1>
           <div className="flex flex-col justify-center items-center md:text-base text-sm">
-            <p className=" dark:text-white/60">₹ 2,000</p>
+            <p className=" dark:text-white/60">TBD</p>
           </div>
         </div>
       </div>
       <p className="text-gray-600 dark:text-gray-200 text-center italic">
-        Winners will also get INR 5k+ worth of goodies from our sponsors.
+        {/*Winners will also get INR 5k+ worth of goodies from our sponsors.*/}
       </p>
     </div>
   );
