@@ -158,7 +158,7 @@ function Sponsors() {
             >
               <p className="text-gray-600">Want To Sponsor Us?</p>
               <a
-                href="https://drive.google.com/file/d/1DDChSjF15cBc1iOzQYr51bwVSz6DLlWN/view?usp=sharing"
+                href="https://drive.google.com/file/d/1DApVQsNPTQStVjvNwUx0_oY90lrK4yLx/view?usp=sharing"
                 target="_blank"
                 className="dark:text-white font-semibold hover:scale-105 transition-all"
               >
