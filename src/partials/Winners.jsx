@@ -1,6 +1,8 @@
 import React, { useState } from "react";
 import sim4img from "../images/PastWinner/winner1.jpg";
 import img2 from "../images/PastWinner/winner2.jpg";
+import img3 from "../images/PastWinner/img3.jpg";
+import img4 from "../images/PastWinner/img4.jpg";
 import Winner from "../components/Winners/Winner";
 
 const winners = [
@@ -20,6 +22,24 @@ const winners = [
     Review:
       "Participating in the Hack'JMI and winning the Best Healthcare project was an exhilarating journey that revolved around the creation of our innovative solution, Glucobot. Our team embarked on a mission to revolutionize glucose monitoring, utilizing advanced Near Infrared (NIR) technology and the Beer-Lambert Law to develop a non-invasive glucometer.The hackathon commenced with a buzz of excitement as teams gathered to address real-world challenges in the many sectors. Inspired by the opportunity to make a significant impact, our diverse team, comprising experts in technology, healthcare, and user experience, quickly coalesced around the idea of creating a cutting-edge solution for glucose monitoring.The conceptualization phase involved in-depth research into existing glucose monitoring technologies and an exploration of the challenges faced by individuals managing diabetes. We identified a critical need for a non-invasive glucometer that could provide accurate readings without the discomfort and risks associated with traditional methods.Our project harnessed the power of advanced NIR technology, coupled with the scientific principles of the Beer-Lambert Law, to create a glucometer that could deliver precise and reliable glucose level readings. The innovation lay not only in the technology but also in the user experience. Glucobot was accompanied by a user-friendly app, accessible remotely from any location with internet connectivity. One of the standout features of Glucobot was its non-invasive nature. By eliminating the need for skin breakage, our solution addressed several concerns prevalent in traditional glucose monitoring methods. Users no longer had to grapple with the fear of needles, potential infections, or repeated damage to skin cells from frequent testing. Glucobot's approach not only enhanced user comfort but also prioritized overall safety. Challenges were met with collaborative problem-solving, and each team member played a crucial role in bringing Glucobot to life. When it came time to present our project to the judges, the excitement and nerves were palpable. As we showcased the capabilities of Glucobot, highlighting its technological innovation, user benefits, and potential impact on diabetes management, the positive response from the judges further fueled our enthusiasm. Winning the best healthcare project at the Hack’JMI was a moment of triumph for our team. It validated the countless hours of research, development, and collaboration that went into creating Glucobot. Beyond the accolades, the victory opened doors to potential partnerships, funding opportunities, and the chance to further refine and implement our solution in the real world.The experience was a reminder that even in a short timeframe, a dedicated team can develop transformative solutions that have the potential to improve lives and make a lasting impact on healthcare practices",
   },
+  {
+    img: img3,
+    teamName: "TEAM DHAAL",
+    projectName: "D.H.A.A.L",
+    TeamMember: ["MOHIT CHAUHAN", "ABDUL AHAD"],
+    Review:
+      "We're over the moon to have won the HackJMI 24 Viksit Bharat 2047 theme! Who would've thought our DHAAL would drive us straight to victory? We're stoked to have contributed to a safer, more viksit Bharat. Thanks to HackJMI for the awesome opportunity, and to each other for being an awesome duo! now it's Your turn!",
+
+  },
+  {
+    img: img4,
+    teamName: "TEAM HACK SHIELD",
+    projectName: "Exams360",
+    TeamMember: ["MOHAMMAD OWAIS", "AALIYAH HUSAIN", "SAAD AHMED SIDDIQUI"],
+    Review:
+      "HackJMI, our first hackathon, was an incredible experience! Creating Exams360 allowed us to bring our vision of simplifying exam prep for IITJEE, NEET, and NDA students to life.Securing the runners-up position was a proud moment, and we’re deeply grateful to IEEE for organizing such an amazing event. The guidance from inspiring seniors, encouragement from fellow participants, and support from friends made this journey unforgettable.This hackathon was just the beginning, and we’re excited to take on new challenges and keep growing!",
+
+  }
 ];
 
 const PastWinners = () => {
