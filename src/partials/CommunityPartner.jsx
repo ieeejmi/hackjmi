@@ -1,8 +1,11 @@
 import React from "react";
+import { useContext } from "react";
+import { DarkThemeContext } from "../App";
 import { CgCommunity } from "react-icons/cg";
 import communitypartnerData from "../data/components.data";
 
 function CommunityPartner() {
+  const { isDarkTheme } = useContext(DarkThemeContext);
   return (
     <section className="relative" id="community-partners">
       <div className="max-w-3xl mx-auto flex flex-col justify-center items-center text-center pb-12 md:pb-16 md:pt-16">
