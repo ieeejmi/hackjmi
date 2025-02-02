@@ -14,21 +14,21 @@ import RosenfeldWhite from "../images/sponsors/rosenfeldWhite.webp";
 import Axure from "../images/sponsors/axure.png";
 import GMC from "../images/sponsors/GMC.png";
 import Beeceptor from "../images/sponsors/beeceptor.png";
-import InterviewBuddy from "../images/sponsors/interviewBuddy.jpeg";
+import InterviewBuddy from "../images/sponsors/interviewBuddy.png";
 import HatkeSocials from "../images/sponsors/haktesocial.jpeg";
 import ETHIndiaDark from "../images/sponsors/ethindia-dark.png";
 import ETHIndiaLight from "../images/sponsors/ethindia-light.png";
 
 function Sponsors() {
   let sponsorData = {
-    /*"Title Sponsor": [
+    "Title Sponsor": [
       {
         dark: Quarbz,
         light: Quarbz,
         src: "https://quarbz.com/",
         alt: "QUARBZ LOGO",
       },
-    ],*/
+    ],
     "Platinum Sponsors": [
       {
         dark: Devfoliowhite,
@@ -114,6 +114,14 @@ function Sponsors() {
         alt: "INTERVIEW_BUDDY LOGO",
       },
     ],*/
+    "Silver Sponsors":[
+      {
+        dark: InterviewBuddy,
+        light: InterviewBuddy,
+        src: "https://interviewbuddy.net/",
+        alt: "INTERVIEW_BUDDY LOGO",
+      }
+    ],
     "Certificate Partners": [
       {
         dark: GMC,
