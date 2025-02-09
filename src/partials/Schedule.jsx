@@ -28,7 +28,7 @@ function Schedule(props) {
 		  title: "Finalist Announced",
 		},
 		{
-		  interval: "TBD",
+		  interval: "16 February",
 		  title: "Finalist Presentations",
 		  description: "Venue: Jamia Millia Islamia Campus",
 		},
